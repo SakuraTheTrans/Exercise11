@@ -210,7 +210,7 @@ public class Main {
         humiditySensor.update();
         temperatureSensor.update();
         pressureSensor.update();
-        temperatureSensor.update();
+        pressureSensor.update();
 
         System.out.println("Main: displaying report and logs");
         localWeatherStation.displayCurrentWeather();
